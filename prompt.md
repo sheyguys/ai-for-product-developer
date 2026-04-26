@@ -20,6 +20,20 @@
 
 ## Entries
 
+## 2026-04-26 11:46
+
+ผมต้องการสร้าง Application todo-list feature พื้นฐาน ควรมีอย่างน้อย เพิ่มงาน / แสดงรายการ / แก้ไข / ทำเสร็จ / ลบ / filter ครับ
+requirement
+- ใช้ภาษา Typescript เป็นหลัก
+- สามารถใช้งานผ่าน mobile ได้ เบื้องต้นอาจจะเป็น responsive website support mobile ipad website
+- เป็น stateless ไม่จำเป็นต้องมีการเก็บข้อมูล (No Need DB)
+โดยอยากให้ใช้งาน engineering practice ดังนี้
+- TDD
+- Code Smell
+- 12 Factor
+- CI/CD
+และจะต้องให้ทำให้่ support ในกรณีที่ใช้งาน  model อื่นๆ ในกรณีที่มีการเปลี่ยนแปลงการใช้่งานในอนาคต
+
 ## 2026-04-26 11:37
 
 สร้างไฟล์ markdown สำหรับ prompt.md เพื่อเอาไว้เก็บ prompt ที่ผมสั่งงานคุณ concept จะคล้ายๆ captain log โดยเก็บเฉพาะคำสั่งของผมเท่านั้น
