@@ -3,8 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "packageManager": "pnpm@10.28.1",
   "engines": {
-    "node": ">=24.0.0"
+    "node": "24.14.0",
+    "pnpm": "10.28.1"
   },
   "scripts": {
     "dev": "vite",
@@ -13,7 +15,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json",
-    "ci": "npm run lint && npm run test && npm run build"
+    "ci": "pnpm lint && pnpm test && pnpm build"
   },
   "dependencies": {
     "react": "^19.2.0",

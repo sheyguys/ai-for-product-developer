@@ -24,12 +24,18 @@ Stateless todo application built with TypeScript and React. The app supports add
 ## Commands
 
 ```bash
-npm install
-npm run dev
-npm test
-npm run build
-npm run ci
+pnpm install
+pnpm dev
+pnpm test
+pnpm build
+pnpm run ci
 ```
+
+## Runtime
+
+- Node.js: `v24.14.0`
+- pnpm: `10.28.1`
+- Use `nvm use` after cloning because the project includes `.nvmrc`
 
 ## Environment Variables
 
