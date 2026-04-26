@@ -63,6 +63,14 @@ If you use `PAGES_ADMIN_TOKEN`, it must have permission to manage Pages for the 
 - 12-factor alignment: config comes from environment variables, the app is stateless, and the build is disposable
 - CI/CD: pull requests and pushes run validation automatically; main branch can deploy a static artifact to GitHub Pages
 
+## Prompt Log Workflow
+
+- Every user prompt must be recorded in `prompt.md`.
+- Add the newest entry at the top of the `## Entries` section.
+- Record only the user's prompt text, without agent responses or implementation notes.
+- Use the `YYYY-MM-DD HH:mm` format in Asia/Bangkok time.
+- Update `prompt.md` before making substantive code or documentation changes.
+
 ## E2E Automation
 
 - Runner: Playwright

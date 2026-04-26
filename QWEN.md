@@ -9,6 +9,7 @@ Use `AGENTS.md` as the canonical project instruction file.
 - Keep config in `src/config/app-config.ts`.
 - Keep UI orchestration in `src/App.tsx`.
 - Keep styling in `src/styles.css`.
+- Record every new user prompt in `prompt.md` before substantive changes.
 - Add or update tests for every behavior change.
 - Use `pnpm lint`, `pnpm test`, and `pnpm build` for validation as needed.
 

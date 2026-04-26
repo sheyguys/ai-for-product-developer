@@ -32,6 +32,16 @@ This file is the canonical instruction source for AI coding agents working in th
 - For UI behavior, update `src/App.test.tsx`.
 - For user-flow changes, update Playwright coverage when relevant.
 
+## Prompt Logging
+
+- Every new user prompt must be recorded in `prompt.md`.
+- Record the prompt before making substantive code or document changes.
+- Insert the new entry at the top of the `## Entries` section.
+- Use the `YYYY-MM-DD HH:mm` timestamp format in Asia/Bangkok time.
+- Store only the user's request text and closely attached user context.
+- Do not store agent responses, reasoning, or implementation notes in `prompt.md`.
+- Never replace or reorder older entries except to keep newest-first ordering.
+
 ## Validation
 
 - Use the pinned toolchain from `package.json` and `.nvmrc`.
@@ -45,6 +55,7 @@ This file is the canonical instruction source for AI coding agents working in th
 ## Collaboration Notes
 
 - Read `README.md` and `docs/architecture.md` before major changes.
+- Check `prompt.md` and keep it updated for every user request.
 - Avoid unrelated cleanup while implementing the requested task.
 - When adding new instructions for another agent tool, mirror this file instead of creating a divergent rule set.
 

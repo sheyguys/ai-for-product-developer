@@ -11,6 +11,7 @@ Use `AGENTS.md` as the canonical project instruction file for this repository.
 - Keep UI orchestration in `src/App.tsx`.
 - Keep presentation concerns in `src/styles.css`.
 - Keep Playwright interaction details in `e2e/page-objects`.
+- Record every new user prompt in `prompt.md` before substantive changes.
 - Add or update tests for every behavior change.
 - Prefer small, targeted changes over broad refactors.
 - Use `pnpm lint`, `pnpm test`, and `pnpm build` for validation as needed.
