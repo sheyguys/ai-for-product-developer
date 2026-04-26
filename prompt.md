@@ -20,6 +20,12 @@
 
 ## Entries
 
+## 2026-04-26 12:08
+
+ผมเจอ error บน github action deploy เกี่ยวกับการ setup github page
+Error: Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the `enablement` parameter for this action. Error: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+Error: HttpError: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+
 ## 2026-04-26 12:06
 
 ผมเจอ error บน github action state Setup Node

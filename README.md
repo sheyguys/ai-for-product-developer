@@ -45,6 +45,15 @@ Copy from `.env.example` when needed.
 - `VITE_DEFAULT_FILTER`: initial filter (`all`, `active`, `completed`)
 - `VITE_BASE_PATH`: Vite base path for deployments such as GitHub Pages
 
+## GitHub Pages Setup
+
+The deploy workflow assumes the repository can publish with GitHub Actions.
+
+- Preferred manual setup: in `Settings > Pages`, set the publishing source to `GitHub Actions`
+- Optional automatic setup: add a repository secret named `PAGES_ADMIN_TOKEN`
+
+If you use `PAGES_ADMIN_TOKEN`, it must have permission to manage Pages for the repository. The workflow will then try to enable Pages automatically when it is not already enabled.
+
 ## Engineering Notes
 
 - TDD: reducer and UI behavior are covered by tests first, then implementation
