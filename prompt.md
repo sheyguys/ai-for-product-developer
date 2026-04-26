@@ -20,6 +20,11 @@
 
 ## Entries
 
+## 2026-04-26 12:06
+
+ผมเจอ error บน github action state Setup Node
+Error: Unable to locate executable file: pnpm. Please verify either the file path exists or the file can be found within a directory specified by the PATH environment variable. Also check the file mode to verify the file is executable.
+
 ## 2026-04-26 12:01
 
 ใช้งาน pnpm เป็นหลักในการรันคำสั่งต่างๆ setup .nvmrc พร้อมกับระบุ node version ที่ใช้งานใน project เบื้องต้น
