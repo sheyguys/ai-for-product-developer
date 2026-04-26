@@ -10,6 +10,12 @@
   Orchestrates UI events and local in-memory state transitions.
 - `src/styles.css`
   Contains responsive presentation only.
+- `e2e/features`
+  Holds business-readable E2E scenarios.
+- `e2e/page-objects`
+  Encapsulates browser interaction details for Playwright tests.
+- `e2e/specs`
+  Binds feature scenarios to executable Playwright coverage.
 
 ## Why This Shape
 
@@ -25,6 +31,7 @@
 - Keep side effects at the edges of the app.
 - Prefer descriptive action names over generic setters.
 - Add tests before expanding business behavior.
+- Keep selectors centralized in page objects rather than scattering them across specs.
 
 ## Future Support For Other Models Or Providers
 

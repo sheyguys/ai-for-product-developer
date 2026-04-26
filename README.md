@@ -27,6 +27,8 @@ Stateless todo application built with TypeScript and React. The app supports add
 pnpm install
 pnpm dev
 pnpm test
+pnpm run e2e:install
+pnpm run e2e
 pnpm build
 pnpm run ci
 ```
@@ -60,6 +62,16 @@ If you use `PAGES_ADMIN_TOKEN`, it must have permission to manage Pages for the 
 - Code smell control: business logic lives in a pure reducer, keeping UI orchestration smaller and easier to refactor
 - 12-factor alignment: config comes from environment variables, the app is stateless, and the build is disposable
 - CI/CD: pull requests and pushes run validation automatically; main branch can deploy a static artifact to GitHub Pages
+
+## E2E Automation
+
+- Runner: Playwright
+- Pattern: Page Object
+- Test case source: Gherkin-style feature files in `e2e/features`
+- Executable specs: `e2e/specs`
+- UI interaction layer: `e2e/page-objects`
+
+Current core scenario coverage includes the main todo flow: add, complete, edit, filter, and delete.
 
 ## Future Portability
 

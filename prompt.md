@@ -20,6 +20,13 @@
 
 ## Entries
 
+## 2026-04-26 13:00
+
+ผมอยากเพิ่ม Engeering Practice เรื่อง Automate e2e โดยใช้
+- playwright
+- เขียนแบบ page object
+- ต้องมี feature file ด้วยสำหรับเก็บ test case
+
 ## 2026-04-26 12:08
 
 ผมเจอ error บน github action deploy เกี่ยวกับการ setup github page

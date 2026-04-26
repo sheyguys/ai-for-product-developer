@@ -30,3 +30,9 @@ jobs:
 
       - name: Run validation
         run: pnpm run ci
+
+      - name: Install Playwright browser
+        run: pnpm exec playwright install --with-deps chromium webkit
+
+      - name: Run E2E tests
+        run: pnpm run e2e
