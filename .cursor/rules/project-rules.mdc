@@ -1,0 +1,21 @@
+---
+description: Shared project rules for AI coding agents in this repository.
+globs:
+alwaysApply: true
+---
+
+# Shared Project Rules
+
+- Treat `AGENTS.md` as the canonical instruction file.
+- This repository is a stateless React 19 todo app with in-memory state only.
+- Do not add persistence, backend calls, or model SDK dependencies unless explicitly requested.
+- Keep business logic in `src/domain/todo-store.ts`.
+- Keep config in `src/config/app-config.ts`.
+- Keep UI orchestration in `src/App.tsx`.
+- Keep presentation concerns in `src/styles.css`.
+- Keep Playwright interaction details in `e2e/page-objects`.
+- Add or update tests for every behavior change.
+- Prefer small, targeted changes over broad refactors.
+- Use `pnpm lint`, `pnpm test`, and `pnpm build` for validation as needed.
+
+If these rules differ from `AGENTS.md`, follow `AGENTS.md`.
